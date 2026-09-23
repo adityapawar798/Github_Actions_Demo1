@@ -1,0 +1,10 @@
+name: Hello World
+on:
+  push:
+  workflow dispatch:
+jobs:
+  hello:
+    runs-on: ubantu-latest
+    steps:
+      - name: print Hello world
+      run: echo "Hello World DS Sec A"
